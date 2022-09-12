@@ -21,4 +21,10 @@ We extracted 228,860 abstracts related to climate change and environmental issue
 
 ## About the Knowledge Graph
 
-<img src="main_example.jpg">
+<figure>
+ <img src="main_example.jpg", style="width:90%">
+ <figcaption>A snapshot of KnowUREnvironment depicts how `automobile` could be related to climate change and related issues.
+Within a few hops, the graph can connect concepts from diverse yet relevant fields like environment, agriculture, and public
+health demonstrating how powerful yet so compact a knowledge graph can be. Additionally, each of the links in the graph is
+backed up by a scientific evidence</figcaption>
+</figure>
