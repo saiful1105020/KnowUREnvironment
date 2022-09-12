@@ -49,6 +49,44 @@ Each triple can be traced back to the sentence of the abstract of a published pa
 
 Another version of the knowledge graph that is less trusted, but more extensive in terms of coverage is also available to <a href="https://github.com/saiful1105020/KnowUREnvironment/blob/main/final_tuples.csv">download</a>. 
 
+Sample code for showing evidence for the triples:
+
+```python
+import pandas as pd
+import json
+import nltk
+from nltk.tokenize import sent_tokenize
+import numpy as np
+
+
+with open("all_abstracts_with_keywords.json", encoding='utf-8') as f:
+    all_abstracts = json.loads(f.read())
+
+    df = pd.read_csv("final_tuples.csv")
+    for i,r in df.iterrows():
+        triple = (r['subject'], r['relation'], r['object'])
+        evidence = []
+        
+        papers = np.asarray(r['paper_id'][1:-1].split(","), dtype=int)
+        n = len(papers)
+        
+        for j in range(0,n):
+            abstract = sent_tokenize(all_abstracts[papers[j]]['abstract'])
+            sentence_nos = np.asarray(r['sentence_no'][1:-1].split(","), dtype=int) 
+            sentence = abstract[sentence_nos[j]]
+            evidence.append(sentence)
+            
+        print("+"*20)
+        print("Triple: ",end="")
+        print(triple)
+        print("Evidence sentence: ",end="\n")
+        for j in range(0,len(evidence)):
+            print("%d. %s"%((j+1),evidence[j]))
+        print("-"*20)
+        
+        break```
+        
+
 ## Citation
 
 If you are using any of the materials from this repository, please make sure to cite the following article:
