@@ -84,9 +84,9 @@ with open("all_abstracts_with_keywords.json", encoding='utf-8') as f:
             print("%d. %s"%((j+1),evidence[j]))
         print("-"*20)
         
-        break```
+        break
         
-
+```
 ## Citation
 
 If you are using any of the materials from this repository, please make sure to cite the following article:
