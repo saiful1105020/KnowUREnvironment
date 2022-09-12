@@ -49,4 +49,13 @@ Each triple can be traced back to the sentence of the abstract of a published pa
 
 Another version of the knowledge graph that is less trusted, but more extensive in terms of coverage is also available to <a href="https://github.com/saiful1105020/KnowUREnvironment/blob/main/final_tuples.csv">download</a>. 
 
+## Citation
 
+If you are using any of the materials from this repository, please make sure to cite the following article:
+
+@article{islam2022know,
+  title={KnowUREnvironment: An Automated Knowledge Graph for Climate Change and Environmental Issues},
+  author={Islam, Md Saiful and Mahbub, Adiba and Zhou, Yilin and Akter, Syeda Nahida and Wohn, Caleb and Hoque, Ehsan},
+  booktitle={2022 AAAI Fall Symposium Series},
+  year={2022}
+}
