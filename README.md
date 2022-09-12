@@ -30,4 +30,23 @@ Within a few hops, the graph can connect concepts from diverse yet relevant fiel
 health demonstrating how powerful yet so compact a knowledge graph can be.</figcaption>
 </figure>
 
+## Accessing the RDF Triples
+
+The RDF triplets extracted by mining academic literature are made <a href="https://github.com/saiful1105020/KnowUREnvironment/blob/main/final_tuples_double_evidence.csv">available</a> in this repository. 
+
+The CSV file contains 6 columns:
+
+<ul>
+<li><b>subject</b> of the RDF triple</li>
+<li><b>object</b> of the RDF triple</li>
+<li><b>relation</b> is the predicate of the RDF triple, a directed relationship from the subject to the object</li>
+<li><b>paper_id</b> traces the paper(s) from where the triple was extracted. Please use the uploaded json file in <b>Climate Change Abstracts</b> section to link this paper_id to the corresponding paper. The json file contains a list of 228,860 papers, the first paper in the list is assigned paper_id = 0, and the last paper is assigned paper_id = 228,859.</li>
+<li><b>sentence_no</b> traces the exact sentence in the corresponding paper abstract from where the triple is extracted. The corresponding paper_id is index matched with the sentence_no column. For example, if a triple is extracted from multiple papers, the paper_id column can be [17218, 36262] and the sentence_no column can be [3,4] -- the evidence sentences can be found from the 3rd sentence of the abstract of 17218th paper, and the 4th sentence of the abstract of the 36262th paper.</li>
+<li><b>num_evidence</b> is the number of different sources the triple was obtained from. More sources typically means the triple can be trusted more. </li>
+</ul>
+
+Each triple can be traced back to the sentence of the abstract of a published paper by using the "paper_id", and "sentence_no" column. Please note that the knowledge graph is still ongoing development, and currently made available for information purpose only. 
+
+Another version of the knowledge graph that is less trusted, but more extensive in terms of coverage is also available to <a href="https://github.com/saiful1105020/KnowUREnvironment/blob/main/final_tuples.csv">download</a>. 
+
 
