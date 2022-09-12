@@ -53,7 +53,7 @@ Another version of the knowledge graph that is less trusted, but more extensive 
 
 If you are using any of the materials from this repository, please make sure to cite the following article:
 
-@article{islam2022know,
+```@article{islam2022know,
 
   title={KnowUREnvironment: An Automated Knowledge Graph for Climate Change and Environmental Issues},
   
@@ -63,4 +63,4 @@ If you are using any of the materials from this repository, please make sure to 
   
   year={2022}
   
-}
+}```
