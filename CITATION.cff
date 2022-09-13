@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use any of the materials from this repository, please cite it as below."
+authors:
+- family-names: "Islam"
+  given-names: "Md Saiful"
+  orcid: "https://orcid.org/0000-0003-3725-3493"
+- family-names: "Mahbub"
+  given-names: "Adiba"
+- family-names: "Zhou"
+  given-names: "Yilin"
+- family-names: "Akter"
+  given-names: "Syeda Nahida"
+- family-names: "Wohn"
+  given-names: "Caleb"
+- family-names: "Hoque"
+  given-names: "Ehsan"
+title: "KnowUREnvironment: An Automated Knowledge Graph for Climate Change and Environmental Issues"
+doi: #
+date-released: 2022-11-18
+url: "https://github.com/saiful1105020/KnowUREnvironment"
+booktitle: "2022 AAAI Fall Symposium Series"
