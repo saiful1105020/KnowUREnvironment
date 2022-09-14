@@ -94,7 +94,7 @@ If you are using any of the materials from this repository, please make sure to 
 ```js
 @article{islam2022know,
   title={KnowUREnvironment: An Automated Knowledge Graph for Climate Change and Environmental Issues},
-  author={Islam, Md Saiful and Mahbub, Adiba and Zhou, Yilin and Akter, Syeda Nahida and Wohn, Caleb and Hoque, Ehsan},
+  author={Islam, Md Saiful and Proma, Adiba and Zhou, Yilin and Akter, Syeda Nahida and Wohn, Caleb and Hoque, Ehsan},
   booktitle={2022 AAAI Fall Symposium Series},
   year={2022}  
 }
