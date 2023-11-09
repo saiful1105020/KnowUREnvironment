@@ -87,6 +87,20 @@ with open("all_abstracts_with_keywords.json", encoding='utf-8') as f:
         break
         
 ```
+
+## Code for Triplet Extraction
+
+i. Install AMR: 
+    Follow the installation instructions of AMR: https://amrlib.readthedocs.io/en/latest/install/ 
+    The requirements.txt file (for AMR installation) is here: https://github.com/bjascob/amrlib/blob/master/requirements.txt
+    
+ii. Install additional packages (e.g., matplotlib, nltk, rapidfuzz). 
+
+Alternatively, the conda environment I worked with is provided as an environment.yml file. You may create an environment with the yml file and then download and place the AMR models as instructed here: https://amrlib.readthedocs.io/en/latest/install/
+
+ClimateKB.ipynb provides a more detailed documentation of the methodology.
+Visualization.ipynb visualizes a part of the knowledge graph (hand-picked) as a directed graph.
+ 
 ## Citation
 
 If you are using any of the materials from this repository, please make sure to cite the following article:
