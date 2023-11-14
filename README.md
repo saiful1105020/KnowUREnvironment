@@ -98,7 +98,7 @@ ii. Install additional packages (e.g., matplotlib, nltk, rapidfuzz).
 
 Alternatively, the conda environment I worked with is provided as an environment.yml file. You may create an environment with the yml file and then download and place the AMR models as instructed here: https://amrlib.readthedocs.io/en/latest/install/
 
-**ClimateKB.ipynb** provides a more detailed documentation of the methodology.
+**ClimateKB.ipynb** provides a more detailed documentation of the methodology, and can be used for extracting the triplets.
 
 **Visualization.ipynb** visualizes a part of the knowledge graph (hand-picked) as a directed graph.
  
