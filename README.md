@@ -17,7 +17,7 @@ We extracted 228,860 abstracts related to climate change and environmental issue
 <li>coastal flooding</li>
 </ul>
 
-<a href="https://drive.google.com/file/d/1-x-61xCEKWbOyw94ij_GMmpNBeAERS_f/view?usp=sharing"> Download the extracted abstracts with author-provided keywords</a>
+<a href="https://rochester.box.com/s/x9063u7bw42jzogxvcxatsm6ufbcssiv"> Download the extracted abstracts with author-provided keywords</a>
 
 ## About the Knowledge Graph
 
